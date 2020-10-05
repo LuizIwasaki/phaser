@@ -1,0 +1,21 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 5em;
+    background-color: rgb(122, 155, 156);
+}
+ 
+/* margem abaixo do conteudo */
+main{
+    margin-bottom: 4em;
+}
+
+/* estilo personalizado rodape  */
+.rodapeFixo {             /* vejam mais exemplos no w3schools */
+    position: fixed;    /* fixo na tela, usar com moderacao */
+    left: 0;        /* coordenada esquerda */
+    bottom: 0;      /* coordenada inferior */  
+    width: 100%;    /* largura */
+    background-color:salmon;
+    text-align: center;
+    z-index: 100; /* forca ordem pra ficar acima de outros elementos */
+}
