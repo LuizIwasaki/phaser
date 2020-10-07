@@ -41,6 +41,7 @@ $(function () {
 function altoContraste() {
     console.log("funcao gerenciar alto contraste");
     $("body").toggleClass("cor-alto-contraste");
+    
 
 }
 $(document).ready(function(){ // jquery
@@ -66,6 +67,21 @@ $(document).ready(function()
     console.log("Entrou no window onload..funcionou o JS");
    
     $("#secondContraste").on("click", segundo);   
+
+});
+function Contraste() {
+    console.log("funcao gerenciar alto contraste");
+    $("banner1").toggleClass("banner-secao1");
+    
+
+}
+$(document).ready(function(){ // jquery
+  
+
+    console.log("Entrou no window onload..funcionou o JS");
+   
+    $("#fbanner-secao1").on("click", Contraste);   
+
 
 });
 
