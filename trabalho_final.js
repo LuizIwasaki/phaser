@@ -40,7 +40,7 @@ $(function () {
 
 function altoContraste() {
     console.log("funcao gerenciar alto contraste");
-    $("body").toggleClass("cor-alto-contraste");
+    $("body").toggleClass("first-color");
     
 
 }
@@ -64,26 +64,24 @@ $(document).ready(function()
 { 
   
 
-    console.log("Entrou no window onload..funcionou o JS");
+    console.log("Cor extra em funcionamento");
    
     $("#secondContraste").on("click", segundo);   
 
 });
-function Contraste() {
+
+function ContrasteReverso() {
     console.log("funcao gerenciar alto contraste");
-    $("banner1").toggleClass("banner-secao1");
+    $("firstcolor").toggleClass("threecolor");
     
 
 }
 $(document).ready(function(){ // jquery
   
 
-    console.log("Entrou no window onload..funcionou o JS");
+    console.log("Contraste Normal em funcionamento");
    
-    $("#fbanner-secao1").on("click", Contraste);   
+    $("#normalContraste").on("click", ContrasteReverso);
 
 
 });
-
-
-
