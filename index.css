@@ -19,7 +19,7 @@ main{
     left: 0;
     bottom: 0;     
     width: 100%;  
-    background-color:rgb(246, 247, 248);
+    background-color:rgb(205, 209, 212);
     text-align: center;
     z-index: 100;
 }
@@ -36,7 +36,8 @@ main{
 }
 .threecolor
 {
-
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 #firstContraste
 {
@@ -59,7 +60,7 @@ main{
 {
     text-decoration: none;
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgb(162, 0, 255);
     border-radius: 2%;
     border: -19px;
     text-align: justify;
@@ -86,6 +87,11 @@ main{
 #secao4
 {
     margin-top: 20vh;
+}
+#secao9
+{
+    margin-top: 1vh;
+    margin-left: auto;
 }
 .featurette-divider
 {

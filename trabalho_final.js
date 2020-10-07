@@ -32,6 +32,14 @@ $(function () {
         console.log("funcao ir para secao 2 acionada..");
         scroll("#secao4");
     });
+    $("#Secao5").on("click", function () {
+        console.log("ir para Formularios..");
+        scroll("#secao5");
+    });
+    $("#Secao9").on("click", function () {
+        console.log("ir para as referencias..");
+        scroll("#secao9");
+    });
 
     
 
