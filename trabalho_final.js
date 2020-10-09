@@ -44,6 +44,7 @@ $(function () {
         console.log("funcao ir para secao 7 acionada..");
         scroll("#secao7");
     });
+    
     $("#Secao8").on("click", function () {
         console.log("ir para Formularios..");
         scroll("#secao8");

@@ -58,8 +58,8 @@
             aria-expanded="false">Mais Seções</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item"  id="Secao5"href="#">Jogo em Phaser</a> 
-            <a class="dropdown-item"  id="Secao6"href="#">Seção 6</a> 
-            <a class="dropdown-item"  id="Secao7"href="#">Seção 7</a> 
+            <a class="dropdown-item"  id="Secao6"href="#">Vantagem</a> 
+            <a class="dropdown-item"  id="Secao7"href="#">Desvantagem</a> 
             <a class="dropdown-item"  id="Secao8"href="#">Formulário de Interesse</a>
             <a class="dropdown-item"  id="Secao9"href="#">Referências</a>
           </div>
@@ -129,9 +129,12 @@
             <div class="container">
               <h2 id="info  " class="text-justify display-4">Como funciona?</h2>
               <hr class="featurette-divider">
-              <p class="lead"> Como dito no tópico anterior, o Phaser veio para possibilitar um fácil desenvolvimento de
-                jogos HTML5
-                para as mais variadas versões de navegador, tanto de celular quanto de computador.
+              <p class="lead"> Um jogo multiplataforma, desenvolvido em Phaser, utiliza mecânicas como o canvas que cria uma
+                área para se desenhar na página e o HTML5 Audio que permite a execução de áudio sem o uso de plug-ins,
+                introduzidas no HTML5 e que são controladas através de JavaScript, isso permite que o jogo seja executado
+                em diversos dispositivos que reconhecem essas tecnologias, sem auxilio externo de nenhum complemento.
+                Para esse trabalho, antes de definir os conceitos dessas tecnologias, precisamos entender o que elas são e
+                como surgiram. 
               </p>
               <p class="lead">Logo a baixo, citarei alguns Exemplos das utilidades desse framework .</p>
             </div>
@@ -166,7 +169,7 @@
                 <img src="Screenshot_3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Biblioteca de Plataforma</h5>
-                  <p>Existem diversas Importações prontas de plataformas para o seu jogo!.</p>
+                  <p>Existem diversas Importações prontas de plataformas para o seu jogo!</p>
                 </div>
                 
               </div>
@@ -174,7 +177,7 @@
               <img src="Screenshot_4.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Biblioteca de Cursor</h5>
-                <p>Isso mesmo! Existe inclusive uma função pronta para o cursor.</p>
+                <p>Isso mesmo! Existe inclusive uma função pronta para o cursor do mouse.</p>
               </div>
               
             </div>
@@ -251,20 +254,95 @@
     </div>
     <hr class="featurette-divider">
     <br>
-    <div id="secao7">
+    <div id="secao5">
       <div class="row">
         <div class="col-12">
-      <div class="container" class="jumbotron"  style="background-color: rgb(146, 146, 146);margin-top: auto;">
-        <h2 style="color: #000000; font-family: sans-serif;text-align: center;">Jogo Desenvolvido em Phaser</h2>
-          <video id="video" width="70%" controls>
+    
+        <h2 style="color: #000000;text-align: center;">Jogo Desenvolvido em Phaser</h2>
+          <video id="video" width="100%" controls>
               <source  src="game.mp4" type="video/mp4">
               </video>
               </div>    
-      </div>
   </div>
     <hr class="featurette-divider">
     <br>
+ <div class="container" id="secao6">
+   <div class="row">
+     <div class="col-12">
+       <div id="banner1" class="jumbotron" style="background-color: rgb(146, 146, 146);">
+         <div class="container">
+        <h3 id="info  " class="text-justify display-7"> Aspectos positivos</h3>
+          <hr class="featurette-divider">
+             <p class="lead"> As novas tecnologias introduzidas com o HTML5 permitiram desenvolvedores a criar jogos e páginas
+                Web muito mais complexas e visualmente atrativas para os usuários. No livro HTML5: Up and Running,
+                PILGRIM (2010) explora todas as novas características do HTML5, como a nova semântica, o Canvas e o
+                armazenamento local de dados, e como essas tecnologias devem ser utilizadas nas mais diversas situações.
+                Porém, apesar de todas as melhorias, a combinação HTML5 e Javascript sem a utilização de
+                nenhuma engine não é a melhor opção para a criação de um jogo com complexidade média ou alta. A
+                ausência de algumas funções básicas para o desenvolvimento de um jogo irá exigir mais tempo de
+                desenvolvimento e aumentará a complexidade do projeto. A Phaser contempla uma diversidade de funções
+                para facilitar o desenvolvimento de um jogo exigindo ao desenvolvedor apenas a preocupação com o
+                desenvolvimento das mecânicas de seu jogo. </p>
 
+              </div>
+            </div>
+          </div>
+                
+
+    <hr class="featurette-divider">
+    <br>
+    <div class="container" id="secao7">
+      <div class="row">
+        <div class="col-12">
+          <div id="banner1" class="jumbotron" style="background-color: rgb(146, 146, 146);">
+            <div class="container">
+           <h3 id="info  " class="text-justify display-7"> Aspectos Negativos</h3>
+             <hr class="featurette-divider">
+                <p class="lead"> Mesmo apresentando diversas vantagens, o desenvolvimento com a Phaser também possui alguns
+                  aspectos negativos, um deles ocasionado por um problema antigo no desenvolvimento Web: A
+                  incompatibilidade de funcionalidades em determinados navegadores. 
+                  Com o surgimento de novos dispositivos móveis, constantemente novas versões de navegadores são
+                  desenvolvidas aumentando a gama de dispositivos disponíveis no mercado e, consequentemente, agravando
+                  o problema de compatibilidade já existente. Além disso, é importante destacar que os navegadores de
+                  dispositivos se comportam de forma diferente comparado ao desktop. Por exemplo, com um navegador desktop o desempenho se comparará à velocidade do computador;
+                  em um celular móvel, no entanto, seus recursos são estritamente limitados.</p>
+                  <p class="lead">A seguir é possível observar uma comparação entre os aspectos positivos e os aspectos
+                    negativos presentes no desenvolvimento de jogos com a Phaser: </p>
+                   
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+           <th scope="col" style="text-align: center;">Funcionalidade</th>
+           <th scope="col" style="text-align: center;">Positivo/Negativo</th>
+         
+            </tr>
+              </thead>
+               <tbody>
+             <tr>
+                 <th scope="row">Fisica Integrada</th>
+                 <td>Positivo</td>
+            
+                    </tr>
+                   <tr>
+                    <th scope="row">Pré Carregamento</th>
+                    <td>Positivo</td>
+                    
+              </tr>
+              <tr>
+                         <th scope="row">Manipulação de Áudio</th>
+                         <td >Negativo</td>
+                       </tr>
+                       <tr>
+                        <th scope="row">Pouco suporte aos jogos 3D </th>
+                        <td>Negativo</td>
+                  </tr>
+                     </tbody>
+                   </table>
+               </div>
+             </div>
+       
+       <hr class="featurette-divider">
+       <br>
     <div class="container" id="secao8">
       <div class="row">
         <div class="col-12">
@@ -276,7 +354,7 @@
             </div>
             <div class="form-group">
               <label for="InputEmail1">Endereço de Email </label>
-              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="email"
                 placeholder="Email">
             </div>
             <div class="form-group">
@@ -295,8 +373,7 @@
 
           <hr class="featurette-divider">
           <br>
-          <hr class="featurette-divider">
-    <br>
+         
 
         </div>
         <div class="container" id="secao9">
@@ -309,7 +386,7 @@
                     <a style="color: rgb(69, 59, 78);"href="https://phaser.io/">Phaser Framework</a><br>
                     <a  style="color: rgb(69, 59, 78);" href="https://en.wikipedia.org/wiki/Phaser_(game_framework)">Descrição Completa Sobre Phaser</a><br>
                     <a style="color: rgb(69, 59, 78);"href="https://github.com/photonstorm/phaser">Github Oficial</a><br>
-                    <a style="color: rgb(69, 59, 78);"href="https://youtu.be/8SwYzPrqaD0">Introdução Ao Phaser JS</a><br>
+                   
                   </div>
                 </div>
               </div>

@@ -98,8 +98,9 @@ main{
     width: 100%;
 }
 #info{
-   display: inline-block;
-   text-align: center;
+   display: flex;
+  position: relative;
+  line-height: 1.5;
 }
 .jumbotron
 {
@@ -124,7 +125,7 @@ main{
 #video
 {
     
-    margin-left: 15%;
+    margin-left: -1%;
     display: block;
     position: relative;
     display: flex;
