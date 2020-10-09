@@ -60,20 +60,21 @@ $(function () {
 
 function altoContraste() {
     console.log("funcao gerenciar alto contraste");
-    $("body").toggleClass("first-color");
-    
+    $("body").css("background-color","black");
+    $("body").css("color","rgb(255, 231, 17)");
 }
+
 
 function extraContraste() {
     console.log("funcao gerenciar alto contraste");
-    $("body").toggleClass("secondcolor");
-
+    $("body").css("background-color","rgba(127, 47, 180, 0.774)");
+    $("body").css("color","rgb(255, 255, 255)");
 }
 
-function extraContraste() {
+function ContrasteReverso() {
     console.log("funcao gerenciar alto contraste");
-    $("body").toggleClass("secondcolor");
-
+    $("body").css("background-color","rgb(255, 255, 255)");
+    $("body").css("color","rgb(0, 0, 0)");
 }
 
 
