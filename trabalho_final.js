@@ -9,7 +9,6 @@ function scroll(id) {
     });
 
 }
-
 $(function () {
 
     console.log("Apresentando seções");

@@ -23,22 +23,7 @@ main{
     text-align: center;
     z-index: 100;
 }
-.first-color
-{
-    background-color: black;
-    color: rgb(255, 231, 17);
-    border-color: black;
-}
-.secondcolor
-{
-    background-color: rgba(127, 47, 180, 0.774);
-    color: rgb(255, 255, 255);
-}
-.threecolor
-{
-    background-color: rgb(177, 35, 35);
-    color: rgb(0, 0, 0);
-}
+
 #btn-firstContraste
 {
     text-decoration: none;
@@ -131,4 +116,9 @@ main{
     display: flex;
     
 }
-
+.blockquote-footer
+{
+    text-align: justify;
+    color: black;
+    
+}
